@@ -17,17 +17,7 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
-    "afterSign": "./build/notarize.js",
-    "mac": {
-      "category": "your.app.category.type"
-    },
-    "win": {
-      "target": "nsis"
-    },
-    "nsis": {
-      "oneClick": false
-    },
+    "appId": "com.github.silvanocerza.electronupdaterexample",
     "linux": {
       "category": "your.app.category.type",
       "target": "AppImage"
